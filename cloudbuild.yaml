@@ -1,0 +1,13 @@
+steps:
+- name: python
+  entrypoint: pip
+  args: ['install', '--upgrade', 'setuptools', 'wheel', 'twine']
+
+- name: python
+  entrypoint: python
+  args: ['setup.py', 'sdist', 'bdist_wheel']
+
+artifacts:
+    pythonPackages:
+    - repository: 'https://us-central1-python.pkg.dev/lockedinai/interviewai/'
+      paths: ['dist/*']

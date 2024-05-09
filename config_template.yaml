@@ -1,0 +1,17 @@
+#####################------------------SYSTEM KEYS-------------------------########################
+PINECONE_API_KEY: 
+DEEPGRAM_API_KEY: 
+OPENAI_API_KEY: 
+# check from python interviewai/speech/check_device.py
+SPEAKER_DEVICE_INDEX: 8
+MIC_DEVICE_INDEX: 2
+GS_BUCKET: 
+GCP_PROJECT: 
+GOOGLE_APPLICATION_CREDENTIALS:
+CLERK_API_KEY: 
+STRIPE_API_KEY: 
+LOOPS_API_KEY: 
+POSTHOG_API_KEY: 
+POSTHOG_HOST: 
+#STRIPE_WEBHOOK_SECRET:
+#CLERK_WEBHOOK_SECRET:

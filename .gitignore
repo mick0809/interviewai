@@ -1,0 +1,22 @@
+.idea/
+**/.env
+**/.venv
+config.yaml
+__pycache__
+**/__gitpycache__/
+.DS_Store
+.DS_Store?
+venv
+resources/
+*.egg-info/
+.chroma/
+dist/
+firebase.json
+interviewai/tests/robot/out/
+node_modules/
+/package-lock.json
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+.python-version
